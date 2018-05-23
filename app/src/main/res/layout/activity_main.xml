@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    tools:context="com.example.aliy.simplecalculator.MainActivity">
+
+    <!--style="?android:attr/textViewStyle"-->
+    <EditText
+        android:id="@+id/display_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="5.0"
+        android:background="@null"
+        android:gravity="end|center_vertical"
+        android:inputType="none"
+        android:linksClickable="false"
+        android:singleLine="false"
+        android:textColor="@color/numberButtonWhite"
+        android:textColorLink="@color/textDisplaySecondary"
+        android:textSize="30sp"
+        tools:ignore="LabelFor" />
+
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onClearButtonClicked"
+        android:text="C"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDeleteButtonClicked"
+        android:text="DEL"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onLastValueButtonClicked"
+        android:text="LAST"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/operatorButtonBlack"
+        android:onClick="onDMSPButtonClicked"
+        android:text="/"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="7"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="8"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="9"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/operatorButtonBlack"
+        android:onClick="onDMSPButtonClicked"
+        android:text="*"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="4"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="5"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="6"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="176dp" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/operatorButtonBlack"
+        android:onClick="onDMSPButtonClicked"
+        android:text="-"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="1"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="2"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="3"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/operatorButtonBlack"
+        android:onClick="onDMSPButtonClicked"
+        android:text="+"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onBracketButtonClicked"
+        android:text="( )"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="0"
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1.0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1.0"
+        android:background="@color/numberButtonBlack"
+        android:onClick="onDisplayableButtonClicked"
+        android:text="."
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:background="@color/operatorButtonBlack"
+        android:onClick="onEqualButtonClicked"
+        android:text="="
+        android:textColor="@color/numberButtonWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</GridLayout>
